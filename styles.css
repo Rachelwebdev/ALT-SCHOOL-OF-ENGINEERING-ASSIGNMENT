@@ -1,0 +1,177 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: left;
+  background-color: #f5f3f0;
+}
+
+/* NAV BAR SECTION */
+
+nav {
+  height: 48px;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  height: 100%;
+  width: 15%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+nav li a {
+  font-family: "Montserrat Alternates";
+  color: #ff5400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #000000;
+}
+
+/* ABOUT ME PAGE SECTION */
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#about-section {
+  text-align: center;
+  /*   margin: 50px 0 100px 50px; */
+}
+#text-container {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+span {
+  color: #ff5400;
+}
+
+.my-name {
+  margin-top: 20px;
+}
+
+.introduction {
+  margin: 20px;
+}
+
+.goal {
+  margin: 20px;
+}
+
+/* EDUCATION EXPERIENCE AND HOBBIES SECTION*/
+#section-two {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.edu,
+.exp,
+.hob {
+  border: 1px solid #ff5400;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 30px;
+  margin-bottom: 80px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* CONTACT SECTION */
+
+#contact-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-section {
+  border: 3px solid #ff5400;
+  /*   padding:30px; */
+  width: 400px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+#contact-section,
+h3 {
+  margin-top: 20px;
+  margin: 20px;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+}
+
+.btn-submit {
+  font-size: 20px;
+  color: #1f1e1e;
+  font-weight: bold;
+  background-color: #f5f3f0;
+}
+.btn-submit:hover {
+  background-color: #eea681;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+}
+
+.links ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.links li {
+  display: inline-block;
+  height: 100%;
+  /*     width: 15%; */
+  text-align: center;
+  margin: 5px 15px 8px 15px;
+}
+
+.links li a {
+  font-family: "Montserrat Alternates";
+  color: #ff5400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  color: #000000;
+}
+
+.contact-details {
+  text-align: center;
+}

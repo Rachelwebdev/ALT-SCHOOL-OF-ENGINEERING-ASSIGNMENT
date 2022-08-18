@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <div id="nav-wrapper">
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html" class="nav-link">About Me</a></li>
+          <li>
+            <a href="index.html" class="nav-link">Contact</a>
+          </li>
+          <li><a href="register.html" class="nav-link">Register</a></li>
+          <li><a href="login.html" class="nav-link">Login</a></li>
+          <li><a href="calculator.html" class="nav-link">Calculator</a> 
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="main-cont">
+      <div id="top-cont">
+        <img src="images/rachel.png" alt="rachel image" />
+        <h1>Login to Your Account</h1>
+
+        <form action="">
+          <input
+            class="btn btn-username"
+            type="text"
+            placeholder="Enter Username"
+            required
+          />
+          <br /><br />
+
+          <input
+            class="btn btn-password"
+            type="password"
+            placeholder="Enter Password"
+            required
+          /><br /><br />
+
+          <div class="btn-div">
+            <button class="btn-submit" type="submit">Sign In</button
+            ><br /><br />
+          </div>
+
+          <div class="links">
+            <label> <input type="checkbox" /> Remember me </label><br /><br />
+            <a class="forgot-pwd" href="#">Forgot password?</a>
+          </div>
+        </form>
+      </div>
+
+      <div id="bottom-cont">
+        <h2>New Here?</h2>
+        <h3>
+          Sign up and discover a great amount <br />
+          of new opportunities!
+        </h3>
+        <button type="button" class="register-btn">
+          <a href="register.html">Register here</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

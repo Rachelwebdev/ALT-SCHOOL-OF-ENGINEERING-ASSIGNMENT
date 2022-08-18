@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: left;
+  background-color: #ffffff;
+}
+img {
+  width: 20%;
+  border-radius: 60%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+/* NAV BAR SECTION */
+nav {
+  height: 48px;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  height: 100%;
+  /* width: 100%; */
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px 60px;
+}
+
+nav li a {
+  font-family: "Montserrat Alternates";
+  color: #ff5400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #000000;
+}
+
+/* MAIN CONTAINER */
+#main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TOP CONTAINER: LOGIN FORM */
+#top-cont {
+  background-color: #f5f3f0;
+  width: 70%;
+  /* height: 100%; */
+  border: 1px solid #bca905;
+  border-radius: 20px;
+  box-shadow: 10px 10px #888888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+#top-container,
+h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #bca905;
+}
+
+.btn {
+  width: 300px;
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.btn-submit {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat Alternates";
+  border-radius: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #ede59d;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forgot-pwd {
+  font-family: "Montserrat Alternates";
+  color: #bca905;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+/* BOTTOM CONTAINER: REGISTER LINK */
+#bottom-cont {
+  border: 1px solid #bca905;
+  margin: 30px 20px 40px 30px;
+  width: 30%;
+  border-radius: 20px;
+  background-image: linear-gradient(#ff5400, rgb(198, 198, 102));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.right-cont,
+h2 {
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+
+.right-cont,
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.register-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #f5f3f0;
+  text-transform: uppercase;
+  background-color: #ede59d;
+}
+
+.register-btn:hover {
+  background-color: #eea27d;
+  font-size: 20px;
+}
+
+.bottom-cont,
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat Alternates";
+}

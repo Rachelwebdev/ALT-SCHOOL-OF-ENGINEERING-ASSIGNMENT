@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+/* NAV BAR SECTION */
+nav {
+  height: 48px;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  height: 100%;
+  /* width: 100%; */
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px 60px;
+}
+
+nav li a {
+  font-family: "Montserrat Alternates";
+  color: #ff5400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #000000;
+}
+
+/* MAIN CONTAINER */
+.main-cont {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #b0db03;
+  margin-top: 50px;
+  background-color: #f5f3f0;
+  box-shadow: 10px 10px #888888;
+  border-radius: 30px;
+  margin-bottom: 70px;
+}
+
+.top-sect {
+  height: 10%;
+  width: 100%;
+  margin: 70px 0;
+  background-color: #b0db03;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+.bottom-sect {
+  margin: 0 0 40px 20px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin: 0 50px 0 0;
+}
+
+.col-25 {
+  width: 25%;
+  margin: 10px 20px;
+}
+
+.col-75 {
+  margin: 10px 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+  width: 300px;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid #ff5400;
+  box-shadow: 2px 2px #888888;
+}
+
+.submit-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.btn-submit {
+  margin-right: 100px;
+  width: 150px;
+  border-radius: 10px;
+  height: 100%;
+  border: 1px solid #b0db03;
+  box-shadow: 2px 2px #888888;
+  font-size: 18px;
+  padding: 10px;
+  font-family: "Montserrat Alternates";
+}
+.btn-submit:hover {
+  background-color: #ee631d;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rem-box {
+  color: #ff5400;
+}
